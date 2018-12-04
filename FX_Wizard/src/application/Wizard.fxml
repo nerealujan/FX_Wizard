@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="133.0" layoutY="200.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: red;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Gryffindor™_Crest.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="178.0" layoutY="261.0" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #FDD502;" text="Gryffindor" textFill="#ab0707">
+               <font>
+                  <Font name="Algerian" size="25.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: yellow;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hufflepuff_print_by_lost_in_hogwarts-d49wemc.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="178.0" layoutY="261.0" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: black;" text="Hufflepuff" textFill="#fdd502">
+               <font>
+                  <Font name="Algerian" size="25.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: blue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@262636659024212%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="178.0" layoutY="261.0" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #A5E5DB;" text="Ravenclaw">
+               <font>
+                  <Font name="Algerian" size="25.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <JFXButton onAction="#backAction" prefHeight="65.0" prefWidth="68.0" text="&lt;" textFill="WHITE" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="500.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton onAction="#nextAction" prefHeight="76.0" prefWidth="68.0" text="&gt;" textFill="WHITE" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="500.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="countLabel" alignment="CENTER" layoutY="510.0" prefHeight="82.0" prefWidth="68.0" text="1/3" textAlignment="CENTER" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="235.0" AnchorPane.topAnchor="500.0" />
+   </children>
+</AnchorPane>
